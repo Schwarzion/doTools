@@ -140,7 +140,7 @@ RControl::checkPlayersWindow(playerList) ;Right Control
 ;Moving functions
 ; ²::moveQuestsPlayer(questsPlayerList) ;tild button (²)
 XButton2::movePlayers(playerList) ;Mouse left button up
-XButton1::movePlayersNoSleep(playerList) ;Mouse right button up
+XButton1::movePlayersNoSleep(playerList) ;Mouse left button down
 
 
 
