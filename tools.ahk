@@ -33,7 +33,6 @@ Delete::GetMousePos()
 ;Open Havre-sac (useful for tp)
 HavreSac() {
     global dofusWindows
-    ; MouseGetPos, mouseX, mouseY
     Loop, % dofusWindows.Length() {
         title := dofusWindows[A_Index]
         if WinExist(title) {
